@@ -21,8 +21,9 @@
               <li class="navbar__item">
                 <a href="#" class="navbar__link">Home</a>
               </li>
-              <li class="navbar__item">
-                <button class="navbar__btn">Pages</button>
+              <li class="navbar__item dropdown-hover">
+                <button href="#" class="navbar__btn">Pages</button>
+                <div class="dropdown-arrow-icon"></div>
                 <ul class="navbar__btn-list">
                   <li class="navbar__btn-item">
                     <a href="#" class="navbar__btn-link">Buy</a>
@@ -38,8 +39,9 @@
                   </li>
                 </ul>
               </li>
-              <li class="navbar__item">
-                <button class="navbar__btn">Template</button>
+              <li class="navbar__item dropdown-hover dropdown-arrow">
+                <button href="#" class="navbar__btn">Template</button>
+                <div class="dropdown-arrow-icon"></div>
                 <ul class="navbar__btn-list">
                   <li class="navbar__btn-item">
                     <a href="#" class="navbar__btn-link">Style guide</a>
@@ -60,6 +62,11 @@
           </nav>
         </div>
         <div class="header__right">
+          <img
+            src="images/svg-1.svg"
+            alt="search-logo"
+            class="header__search-logo"
+          />
           <button class="header__search">Search</button>
           <a href="#" class="button header__purchase">Purchase Now</a>
         </div>
@@ -69,7 +76,7 @@
       <div class="first__container">
         <a href="#" class="sub-title first__sub-title">Featured Property</a>
         <a href="#" class="title first__title-link">
-          <h1 class="first__title_text">34 Heyington Place</h1>
+          <h1 class="first__title-text">34 Heyington Place</h1>
         </a>
       </div>
     </section>
@@ -85,16 +92,18 @@
       </div>
     </section>
     <section class="third">
-      <a href="#" class="third__left"
-        ><img src="images/2.jpg" alt="room photo" class="third__image"
-      /></a>
+      <div class="third__left">
+        <a href="#" class="third__link"
+          ><img src="images/2.jpg" alt="room photo" class="third__image"
+        /></a>
+      </div>
       <div class="third__right">
         <div class="third__top">
           <p class="sub-title third__sub-title">Just Listed</p>
           <hr class="third__underline underline" />
         </div>
         <div class="third__main">
-          <p class="sub-title third__sub-title">South Yarra</p>
+          <p class="sub-title third__sub-title--margin-top">South Yarra</p>
           <h2 class="title third__title">2 Hamilton Road</h2>
           <div class="third__property">
             <div class="third__property-item">
@@ -115,34 +124,242 @@
       </div>
     </section>
     <section class="four third">
-      <a href="#" class="third__left"
-        ><img src="images/2.jpg" alt="room photo" class="third__image"
+      <a href="#" class="four__right third__left"
+        ><img src="images/3.jpg" alt="room photo" class="third__image"
       /></a>
-      <div class="third__right">
+      <div class="four__left third__right">
         <div class="third__top">
           <p class="sub-title third__sub-title">Just Listed</p>
           <hr class="third__underline underline" />
         </div>
         <div class="third__main">
-          <p class="sub-title third__sub-title">South Yarra</p>
-          <h2 class="title third__title">2 Hamilton Road</h2>
+          <p class="sub-title third__sub-title--margin-top">South Yarra</p>
+          <h2 class="title third__title">1320 High Street</h2>
           <div class="third__property">
             <div class="third__property-item">
               <img src="images/bed.svg" alt="" class="third__property-icon" />
-              <p class="third__property-text">4 bed</p>
+              <p class="third__property-text">3 bed</p>
             </div>
             <div class="third__property-item">
               <img src="images/bath.svg" alt="" class="third__property-icon" />
-              <p class="third__property-text">3 bath</p>
+              <p class="third__property-text">2 bath</p>
             </div>
             <div class="third__property-item">
               <img src="images/car.svg" alt="" class="third__property-icon" />
-              <p class="third__property-text">3 car</p>
+              <p class="third__property-text">4 car</p>
             </div>
           </div>
           <a href="#" class="button third__link">View Property</a>
         </div>
       </div>
     </section>
+    <div class="four__separation"></div>
+    <section class="five">
+      <div class="five__left">
+        <p class="sub-title five__sub-title">Neighbourhood Spotlight</p>
+        <h3 class="title five__title">SOUTH YARRA</h3>
+        <p class="five__text">
+          Et justo, facilisi morbi nisl urna, ultrices volutpat tellus sit.
+          Condimentum quis odio mollis a amet, quis ut tortor. Ac vel non, neque
+          in ut elementum. Egestas ornare ipsum, id egestas.
+        </p>
+        <a href="#" class="button five__button">Explore Properties</a>
+      </div>
+      <div class="five__right">
+        <img src="images/4.jpg" alt="photo" class="five__image" />
+      </div>
+    </section>
+    <section class="six">
+      <div class="six__container">
+        <div class="six__left">
+          <img src="images/5.jpg" alt="apartment photo" class="six__image" />
+        </div>
+        <div class="six__right">
+          <h3 class="six__text">
+            “Thanks to the team we were very happy with our experience selling
+            our property - from the marketing campaign to the negotiation stage
+            and final result.”
+          </h3>
+          <p class="sub-title six__sub-title">Sue Hallam - Hawthorn</p>
+        </div>
+      </div>
+    </section>
+    <section class="seven">
+      <div class="seven__container">
+        <div class="seven__left">
+          <img src="images/7.jpg" alt="beautiful-room" class="seven__image" />
+          <p class="sub-title seven__sub-title">Sellers</p>
+          <h3 class="seven__title">Request a valuation</h3>
+          <p class="seven__text">
+            Probably more than you think. We attract some of the highest returns
+            for landlords in East London. Find out how we can look after your
+            interests, from securing the best rates to finding the right tenants
+            and making sure you`re paid on time.
+          </p>
+          <a href="" class="button seven__button">Make an enquiry</a>
+        </div>
+        <div class="seven__right">
+          <img src="images/6.jpg" alt="beautiful-room" class="seven__image" />
+          <p class="sub-title seven__sub-title">Landlords</p>
+          <h3 class="seven__title">Rent your property</h3>
+          <p class="seven__text">
+            It doesn`t take long to find out. We know the housing stock in this
+            area and we consistently sell properties for above the average
+            valuation, making us one of the highest placed agents in our sector.
+            Find out how we can add value.
+          </p>
+          <a href="" class="button seven__button">Contact out team</a>
+        </div>
+      </div>
+    </section>
+    <section class="eight">
+      <div class="eight__container">
+        <div class="eight__left">
+          <h3 class="title left__title">
+            Property <br />
+            News & Insight
+          </h3>
+          <p class="left__text">Subscribe for bi-weekly updates.</p>
+          <hr class="underline eight__underline" />
+          <label for="email">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Adress"
+              class="left__email"
+            />
+          </label>
+          <input type="submit" class="button left__button" />
+          <div class="left__terms">
+            <label class="left__checkbox-container">
+              <input type="checkbox" class="terms__checkbox" />
+            </label>
+            <p class="terms__text">I have read and agree to the</p>
+            <a href="#" class="terms__link">Terms & Conditions</a>
+          </div>
+        </div>
+        <div class="eight__right">
+          <div class="right__item">
+            <a href="#" class="right__link"
+              ><img src="images/8.jpg" alt="room photo" class="right__image"
+            /></a>
+            <div class="right__content">
+              <ul class="right__list">
+                <li class="right__list-item">
+                  <a href="#" class="right__list-link">November 22, 2023</a>
+                </li>
+                <li class="right__list-item">
+                  <a href="#" class="right__list-link">5 min read</a>
+                </li>
+              </ul>
+              <a href="#" class="right__text"
+                ><p>The importance of dressing your home for sale.</p></a
+              >
+            </div>
+          </div>
+          <div class="right__item">
+            <a href="#" class="right__link"
+              ><img src="images/9.jpg" alt="room photo" class="right__image"
+            /></a>
+            <div class="right__content">
+              <ul class="right__list">
+                <li class="right__list-item right__list-item--disc-none">
+                  <a href="#" class="right__list-link">November 22, 2023</a>
+                </li>
+                <li class="right__list-item">
+                  <a href="#" class="right__list-link">7 min read</a>
+                </li>
+              </ul>
+              <a href="#" class="right__text"
+                ><p>Debunking bedroom renovating myths.</p></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__left">
+          <a href="#" class="footer__logo-link"
+            ><img
+              src="images/logo-white.svg"
+              alt="Mercer logo"
+              class="footer__logo"
+          /></a>
+          <h6 class="title footer__title">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+            consequuntur velit placeat accusantium distinctio.
+          </h6>
+          <ul class="footer__socials">
+            <li class="socials__item">
+              <a href="" class="socials__link"
+                ><img
+                  src="images/linked.svg"
+                  alt="linked"
+                  class="social__image social__image--shadow"
+              /></a>
+            </li>
+            <li class="socials__item">
+              <a href="" class="socials__link"
+                ><img
+                  src="images/twitter.svg"
+                  alt="twitter.com"
+                  class="social__image"
+              /></a>
+            </li>
+            <li class="socials__item">
+              <a href="" class="socials__link"
+                ><img
+                  src="images/instagram.svg"
+                  alt="instagram"
+                  class="social__image social__image--shadow"
+              /></a>
+            </li>
+            <li class="socials__item">
+              <a href="" class="socials__link"
+                ><img
+                  src="images/facebook.svg"
+                  alt="facebook"
+                  class="social__image"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__center">
+          <p class="sub-title center__list-name">Pages</p>
+          <ul class="center__menu">
+            <li class="center__item">
+              <a href="" class="center__link">Home</a>
+            </li>
+            <li class="center__item">
+              <a href="" class="center__link">Buy</a>
+            </li>
+            <li class="center__item">
+              <a href="" class="center__link">About Company</a>
+            </li>
+            <li class="center__item">
+              <a href="" class="center__link">Blog</a>
+            </li>
+            <li class="center__item">
+              <a href="" class="center__link">Enquiries</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__center footer__right">
+          <p class="sub-title right__list-name">My Data</p>
+          <ul class="center__menu right-list">
+            <li class="center__link right__item">Bohdan</li>
+            <li class="center__link right__item">Teslenko</li>
+            <li class="center__link right__item">
+              Email:<br />
+              bohdan.teslenko@proton.me
+            </li>
+            <li class="center__link right__item">22.11.2023</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
