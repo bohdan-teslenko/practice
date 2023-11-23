@@ -1,0 +1,86 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 90%;
+  z-index: 1000;
+  &__logo {
+    height: 18px;
+    line-height: 26px;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 78px;
+    padding: 1.7rem;
+  }
+  &__center {
+    margin-left: 5rem;
+  }
+  &__search {
+    text-decoration: none solid rgb(34, 34, 34);
+    font-size: 18px;
+    border: transparent;
+    background-color: white;
+    cursor: pointer;
+  }
+  &__search-logo {
+    position: relative;
+    top: 4px;
+  }
+}
+.navbar {
+  &__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+  }
+  &__btn-list {
+    list-style: none;
+    position: absolute;
+    background-color: white;
+    width: 228px;
+    border-top: 1.5px solid rgba(228, 228, 228, 0.527);
+    border-radius: 3px;
+    display: none;
+  }
+  &__link {
+    text-decoration: none;
+    color: #494949;
+    font-size: 22px;
+  }
+  &__btn-link {
+    text-decoration: none;
+    color: rgb(121, 121, 121);
+    font-size: 22px;
+    background-color: white;
+    display: block;
+    padding: 13px 21px;
+    &:hover {
+      color: black;
+      transition: 0.15s ease-in-out;
+      background-color: rgb(235, 235, 235);
+    }
+  }
+  &__btn {
+    text-decoration: none solid rgb(34, 34, 34);
+    font-size: 22px;
+    line-height: 28px;
+    border: transparent;
+    background-color: white;
+    cursor: pointer;
+  }
+}
+.dropdown-arrow-icon::after {
+  content: "\25BC"; /* Unicode character for downward arrow */
+  font-size: 1em; /* Adjust the size as needed */
+  margin-left: 43%; /* Adjust the spacing from the text */
+  position: relative;
+  bottom: 4px;
+}
+.dropdown-hover:hover .navbar__btn-list {
+  display: block;
+}

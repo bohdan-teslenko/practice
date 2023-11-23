@@ -1,0 +1,110 @@
+.members {
+  &__main {
+    background-color: #f5f5f5;
+
+    height: 120vh;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__image {
+    height: 540px;
+    padding-bottom: 20vh;
+  }
+  &__text {
+    width: 60%;
+    margin-top: 2rem;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  &__title {
+    color: #1d1d1d !important;
+    font-weight: 100;
+    font-size: 54px !important;
+  }
+  &__sub-title {
+    color: #1d1d1d !important;
+    font-size: 24px !important;
+    margin-bottom: 2rem;
+  }
+  &__phone,
+  &__email {
+    text-decoration: underline;
+    color: black;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  &__left {
+    margin-top: 25vh;
+    margin-left: 45vh;
+  }
+  &__right {
+    margin-top: 25vh;
+  }
+  &__content {
+    margin-left: 4rem;
+    padding-top: 0.7rem;
+  }
+
+  &__properties {
+    background-color: #f5f5f5;
+    padding-bottom: 5rem;
+  }
+}
+.properties {
+  &__container {
+    margin: 0rem 15vh;
+  }
+  &__section {
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    color: #1d1d1d !important;
+    font-size: 28px !important;
+    font-weight: 100;
+  }
+  &__underline {
+    margin-bottom: 2.5rem;
+  }
+
+  &__content {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  &__item {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 1.3rem;
+  }
+  &__image {
+    height: 265px;
+    padding-bottom: 2rem;
+    &:hover {
+      transform: scale(1.01);
+      transition: 0.15s ease-in-out;
+    }
+  }
+
+  &__sub-title {
+    color: #1d1d1d !important;
+    display: block;
+  }
+  &__title {
+    font-size: 32px !important;
+  }
+  &__icon {
+    display: flex;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    gap: 2rem;
+    margin-left: 4rem;
+
+    &-item {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+}

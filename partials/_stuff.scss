@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Libertinus";
+}
+
+.sub-title {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.title {
+  text-decoration: none;
+  color: white;
+  font-size: 34px;
+  line-height: 60px;
+}
+
+.underline {
+  width: 53px;
+  background-color: black;
+  height: 1.3px;
+  border-style: none;
+  margin-top: 1.3rem;
+}
+.button {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  border: 1px solid #1d1d1d;
+  padding: 15px 28px 15px 28px;
+  background-color: #1d1d1d;
+  margin-left: 1.2rem;
+  &:hover {
+    background-color: white;
+    color: rgb(77, 77, 77);
+    transition: 0.3s;
+  }
+}
